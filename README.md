@@ -8,9 +8,13 @@ The types may be different. Example:
 
 
 Formally, this directed weighted graph G = (N, E) will consist of a set of nodes N and a set of weighted edges E.
+
 All nodes are unique, that is to say, no two nodes will have the same value and shall not compare equal using operator==.
+
 Given a node, an edge directed into it is called an incoming edge and an edge directed out of it is called an outgoing edge. The in-degree of a node is the number of its incoming edges. Similarly, the out-degree of a node is the number of its outgoing edges. Given a directed edge from src to dst, src is the source node and dst is known as the destination node.
+
 Edges can be reflexive, that is to say, the source and destination nodes of an edge could be the same.
+
 G is a multi-edged graph, as there may be two edges from the same source node to the same destination node with two different weights. Two edges from the same source node to the same destination node cannot have the same weight.
 
 ## Usage
